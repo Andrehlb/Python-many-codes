@@ -60,4 +60,4 @@ print("X = ", X)      # Imprime "X = ", X
 4. `print("X = ", X)` 
     Esta linha de código imprime a string `"X = "`, seguida pelo valor da variável X. A função `print()` imprime seus argumentos na saída padrão (normalmente a tela).
 
-👍Obrigado! :)
+👍Obrigado! `:)`
