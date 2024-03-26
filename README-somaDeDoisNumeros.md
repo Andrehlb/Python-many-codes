@@ -18,7 +18,8 @@ From <https://resources.beecrowd.com/repository/UOJ_1001.html>
 
 Pseudo código
 
-<a> Linguagem Natural Estruturada </a>
+<p> Linguagem Natural Estruturada </p>
+
 ```
     1. Inicialize as duas variáveis, A e B
     2. Ler o primeiro valor inteiro e armazenar na variável A
@@ -26,7 +27,7 @@ Pseudo código
     4. Efetuar a soma de A e B e armazenar na variável X
     5. Imprimir "X =", seguido pelo valor da variável X e um fim de linha
 ```
-<a> Pseudo código </a>
+<p> Pseudo código </p>
 
 ```pseudo-código
 Inicio
@@ -36,16 +37,15 @@ Inicio
     X = A + B
     Imprime "X = ", X
 Fim
-`` 
-
-em Python será assim:
+```
+<p> em Python será assim: </p>
 
 ```py
 // Declare A, B, X
 A = int(input())     # Leia A
 B = int(input())     # Leia B
-X = A + B               # X = A + B
-print("X = ", X)      # Imprime "X = ", X
+X = A + B            # X = A + B
+print("X = ", X)     # Imprime "X = ", X
 ```
 
 ## Explicação de cada linha:
