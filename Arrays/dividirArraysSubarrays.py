@@ -22,6 +22,9 @@
     # retornar grupos
 
 def divideArray(nums, k):
+    if len(nums) % 3 !=0:
+        return []
+    
     nums.sort()  # Ordena o array
     result = []  # Lista para armazenar os subarrays
     for i in range(0, len(nums), 3):
@@ -31,3 +34,8 @@ def divideArray(nums, k):
         else:
             return []
     return result
+
+# Testando a função com o exemplo fornecido
+nums = [1, 3, 4, 8, 7, 9, 3, 5, 1]
+k = 2
+print(divideArray(nums, k))  # Saída esperada: [[1, 1, 3], [3, 4, 5], [7, 8, 9]]
