@@ -46,3 +46,21 @@ htmlcov/
 
 # ace_tools output (if any)
 ace_tools_output/
+
+# C++ build files
+C++/build/
+C++/bin/
+C++/obj/
+C++/*.exe
+C++/*.out
+C++/*.o
+C++/*.obj
+C++/*.dll
+C++/*.pdb
+C++/*.lib
+C++/*.so
+C++/*.a
+C++/CMakeFiles/
+C++/CMakeCache.txt
+C++/Makefile
+C++/cmake_install.cmake
