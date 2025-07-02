@@ -11,6 +11,8 @@ venv/
 
 # VS Code settings
 .vscode/
+.vscode
+.vscode-test/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
