@@ -1,7 +1,7 @@
 # Agenda-Planner Estudos 26/06/2025
 from datetime import datetime, timedelta
 import pandas as pd
-from ace_tools import display_dataframe_to_user
+# Removed ace_tools import as it could not be resolved
 
 # Data de início do planner
 start_date = datetime.strptime("2025-06-24", "%Y-%m-%d")
@@ -40,4 +40,6 @@ for i in range(14):
     })
 
 df_planner = pd.DataFrame(planner)
-display_dataframe_to_user(name="Planner de Estudos - 2 Semanas", dataframe=df_planner)
+# Display the dataframe using Pandas' built-in method
+print("Planner de Estudos - 2 Semanas")
+print(df_planner)
